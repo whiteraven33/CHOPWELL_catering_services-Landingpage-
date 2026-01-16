@@ -1,0 +1,6 @@
+<section id="hero-section">
+        <div class="h-img">
+            <img src="Asset/hero2.png" class="hero-img"   alt="">
+            <!-- <h2 class="text">CHOP WELL </h2> -->
+
+        </div>
