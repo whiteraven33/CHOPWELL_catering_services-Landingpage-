@@ -1,10 +1,13 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+/* body{
     background-image: url(Asset/download\ \(18\).jpg);
     background-size: cover;
     background-position: center;
@@ -13,7 +16,9 @@ body{
     color: white;
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-}
+} */
+
+
 
 .blur{
     width: 100%;
@@ -24,115 +29,241 @@ body{
 
 #hero{
     width: 100%;
-    height: 100vh;
+    background-image: url(Asset/download\ \(18\).jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    filter: contrast(1.2) brightness(0.8);
     
 }
 
 .img1{
     position: absolute;
     top: 50%;
-    left: 70%;
+    left: 94%;
     transform: translate(-50%, -50%) rotate(45deg);
     z-index: 2;
-    width: 500px;
+    width: 550px;
     height: auto;
 }
 
-.logo{
+/* .logo{
     position: absolute;
     top: 20px;
     left: 25px;
     width: 150px;
     height: auto;
-    z-index: 3;
-}
+    z-index: 3; */
+    /* } */
 
-.hero-text1{
-    position: absolute;
-    top: 50%;
-    left: 35%;
-    transform: translate(-50%, -50%);
-    font-size: 4rem;
+
+.hero-text{
     color: white;
-    z-index: 1;
-    text-shadow: 2px 2px 4px #000000;
-    background-color: rgba(0, 0, 0, 0.445);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 2rem;
-    max-width: 40%;
-    padding: 20px;
-    
-}
-
-.hero-text1 h2{
-    margin-bottom: 20px;
-}
-
-
-.img3{
+    font-family: Fredoka, sans-serif;
+    text-transform: uppercase;
     position: absolute;
-    top: 160%;
-    right: 30%;
-    transform: translate(-50%, -50%) rotate(3deg);
+    top: 7%;
+    left: 8%;
+    transform: translate(-50%, -50%);
     z-index: 2;
-    width: 550px;
+    font-size: 1.5rem;
+    font: Fredoka;
+    padding: 20px;
+    font-weight: 700;
+    opacity: 70%;
+
+}
+#h-text p {
+    color: white;
+    font-family: Fredoka, sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    font-size: 2rem;
+    font: Fredoka;
+    padding: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    white-space: nowrap;
+
+
+}
+
+
+.sec-t{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    font-weight: 500;
+    opacity: 80%;
+    width: 40%;
+    margin-top: 40px;
+}
+
+.buttons{
+    position: absolute;
+    top: 65%;
+    left: 20%;
+    display: flex;
+    /* justify-content: center; */
+    gap: 60px;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 50px;
+
+}
+
+#second-sec{
+    width: 100%;
+    height: 100vh;
+    background-color:#fffbd4;
+    position: relative;
+    display: flex;
+
+}
+
+#second-sec h2 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;   
+}
+
+.img-sec1{
+    position: absolute;
+    top: 57%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 370px;
     height: auto;
 }
 
-
-.hero-text2{
+.text-sec2{
     position: absolute;
-    top: 163%;
-    left: 62%;
+    top: 57%;
+    left: 60%;
     transform: translate(-50%, -50%);
-    font-size: 4rem;
-    color: white;
-    z-index: 1;
-    text-shadow: 2px 2px 4px #000000;
-    background-color: rgba(0, 0, 0, 0.445);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 2rem;
-    max-width: 40%;
-    padding: 20px;
-    padding-left: 50px;
-    
-}
-
-.hero-text2 h2{
-    margin-bottom: 20px;
-}
-
-
-
-
-.img4{
-    position: absolute;
-    top: 260%;
-    left: 74%;
-    transform: translate(-50%, -50%) rotate(-4deg);
     z-index: 2;
-    width: 550px;
     height: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+ .text-sec2 h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+    white-space: nowrap;
 } 
 
-.hero-text3{
+.text-sec2 p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 50px;
+    width: 90%;
+}
+
+
+#second-sec2{
+    width: 100%;
+    height: 100vh;
+    background-color:#fffbd4;
+    position: relative;
+    display: flex;
+
+}
+
+.img-sec2{
     position: absolute;
-    top: 263%;
-    left: 34%;
+    top: 50%;
+    left: 78%;
     transform: translate(-50%, -50%);
-    font-size: 4rem;
-    color: white;
-    z-index: 1;
-    text-shadow: 2px 2px 4px #000000;
-    background-color: rgba(0, 0, 0, 0.445);
+    z-index: 2;
+    width: 500px;
+    height: auto;
+}
+
+.text-sec3{
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    z-index: 2;
+    height: auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 2rem;
-    max-width: 40%;
-    padding: 20px;
-    padding-left: 50px;
+}
+
+
+.text-sec3 h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+    white-space: nowrap;
     
 }
 
-.hero-text3 h2{
-    margin-bottom: 20px;
+.text-sec3 p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 50px;
+    width: 50%;
 }
+
+#second-sec4{
+    width: 100%;
+    height: 100vh;
+    background-color:#fffbd4;
+    position: relative;
+    display: flex;
+
+}
+
+.img-sec4{
+    position: absolute;
+    top: 50%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 500px;
+    height: auto;
+}
+
+.text-sec4{
+    position: absolute;
+    top: 35%;
+    left: 48%;
+    z-index: 2;
+    height: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.text-sec4 h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+    white-space: nowrap;
+    
+}
+
+.text-sec4 p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 50px;
+    width: 75%;
+}
+
