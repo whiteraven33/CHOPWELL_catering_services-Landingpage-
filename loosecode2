@@ -25,3 +25,31 @@
         </div>
 
     </section> -->
+
+
+     <h2>Frequently Asked Questions</h2>
+    
+    <details class="faq-item">
+        <summary>How far in advance should I book?</summary>
+        <p>We require 30 days advance booking to ensure quality and availability.</p>
+    </details>
+    
+    <details class="faq-item">
+        <summary>Do you deliver nationwide?</summary>
+        <p>Yes! We serve Lagos, Abuja, Port Harcourt, and other major cities.</p>
+    </details>
+    
+    <details class="faq-item">
+        <summary>Can I customize the menu?</summary>
+        <p>Absolutely! We work with your preferences and dietary needs.</p>
+    </details>
+    
+    <details class="faq-item">
+        <summary>Are servers included?</summary>
+        <p>Yes, for events over 100 guests. Smaller events available upon request.</p>
+    </details>
+    
+    <details class="faq-item">
+        <summary>What payment methods do you accept?</summary>
+        <p>Bank transfer, cash, and card payments on delivery.</p>
+    </details>
